@@ -3,13 +3,16 @@
   padding: 0;
 }
 
+/* button {
+  height: auto;
+} */
 .test {
   width: 100%;
 }
 #Shop {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  margin: auto;
+  margin: auto; */
   width: 50%;
 }
 h2 span {
@@ -28,7 +31,20 @@ h2 span {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+.button-flex {
+  display: flex;
+  justify-content: center;
+}
 
+.number {
+  width: 35px !important;
+  margin-left: 2px;
+  border-color: rgb(43, 160, 196);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 .navbar-brand,
 img {
   height: 45px;
@@ -41,16 +57,26 @@ img {
   width: 30%; */
 }
 
-.mug {
+/* .mug {
   padding: 15px;
-}
+} */
 .row {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
+.coffee-cup {
+  margin-right: -30px;
+}
+.blank_space {
+  margin-right: -14px;
+}
+
 .fa {
   margin-left: 15px;
   size: 10px;
+}
+.return__cup span {
+  border-bottom: 2px solid rgb(53, 162, 170);
 }
 .slide_img,
 img {
@@ -61,6 +87,12 @@ img {
 }
 ul {
   margin-left: 21px !important;
+}
+.see-more {
+  margin-top: 20px;
+}
+.coffee span {
+  border-bottom: 2px solid rgb(36, 163, 185);
 }
 .slide_text {
   position: absolute;
@@ -87,10 +119,13 @@ ul {
 .sign__up__button {
   height: auto;
 }
+#first-button {
+  height: auto !important;
+}
 
 .btn {
   width: 155px;
-  height: 30px;
+  height: auto;
 
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -382,7 +417,9 @@ h2 {
   text-align: center;
   margin-top: 90px;
   padding: 30px;
+
   background-color: #dad9de;
+  width: 100%;
 }
 .sign__up__form {
   padding: 2px;
@@ -665,6 +702,9 @@ p span {
     border-bottom: none !important;
   }
 
+  .return__cup span {
+    border-bottom: none !important;
+  }
   #shop {
     height: 30px;
   }
@@ -826,6 +866,13 @@ p span {
   h2 span {
     border-bottom: none !important;
   }
+  .return__cup span {
+    border-bottom: none !important;
+  }
+  .see-more {
+    margin-top: auto !important;
+    margin-bottom: 10px;
+  }
   .email__input {
     width: auto;
   }
@@ -931,7 +978,9 @@ p span {
     width: 20rem;
     height: auto;
   }
-
+  #first-button {
+    height: auto !important;
+  }
   /* .cup_section img {
     height: 30rem;
     width: 45rem;
