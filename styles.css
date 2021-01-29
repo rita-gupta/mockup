@@ -44,7 +44,10 @@ img {
 .mug {
   padding: 15px;
 }
-
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
 .fa {
   margin-left: 15px;
   size: 10px;
@@ -74,6 +77,15 @@ ul {
 }
 .redmug {
   text-align: center;
+}
+.redmug > img {
+  max-width: 400px;
+}
+.last-button {
+  height: auto !important;
+}
+.sign__up__button {
+  height: auto;
 }
 
 .btn {
@@ -361,7 +373,8 @@ h2 {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 
-  /* margin-left: 560px !important; */
+  display: flex;
+  justify-content: center;
   margin: auto;
   margin-top: 20px;
 }
